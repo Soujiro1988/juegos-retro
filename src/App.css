@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: 'Press Start 2P', cursive; /* Una fuente que recuerda a los videojuegos clásicos */
+    background-color: #f0f0f0; /* Un fondo claro para resaltar los colores */
+    color: #333; /* Color de texto oscuro para contraste */
+    text-align: center; /* Centrar el contenido */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1 {
+    color: #ff00ff; /* Color brillante para el título */
+    text-shadow: 3px 3px 0px #000; /* Sombra de texto para un efecto retro */
   }
-  to {
-    transform: rotate(360deg);
+  
+  nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
   }
-}
+  
+  nav li {
+    display: inline; /* Mostrar enlaces en línea */
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #00ff00; /* Color de enlace brillante */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.5em;
+  }
+  
+  a:hover {
+    color: #ff0000; /* Cambio de color al pasar el ratón */
+  }
+  
+  button {
+    background-color: #0000ff; /* Fondo de botón azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el ratón */
+  }
+  
+  /* Estilos adicionales para los juegos específicos pueden ir aquí */
+  /* Por ejemplo, estilos para el juego Snake, Hangman, etc. */
+  
